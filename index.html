@@ -3,27 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Natalia & Joel</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <main>
+    <div class="pantalla">
 
-        <h1>Natalia & Joel</h1>
+        <img
+            src="img/inicio.png"
+            alt="Natalia y Joel - Encontrá tu lugar"
+            class="fondo"
+        >
 
-        <p>12 de diciembre de 2026</p>
-
-        <h2>Encontrá tu lugar</h2>
-
+        <!-- Campo real para escribir el nombre -->
         <input
             type="text"
-            placeholder="Escribí tu nombre">
+            id="nombre"
+            class="campo-nombre"
+            placeholder=""
+            autocomplete="off"
+        >
 
-        <button>BUSCAR</button>
+        <!-- Botón real -->
+        <button
+            id="buscar"
+            class="boton-buscar"
+            aria-label="Buscar"
+        ></button>
 
-    </main>
-
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
